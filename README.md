@@ -43,7 +43,7 @@ npm start
 
 This should start your application. Open your browser and navigate to http://localhost:3000 to see your application running.
 
-### Features
+## Features
 Chat Interface: Ask questions and get answers from the AI.
 Newsletter Subscription: Subscribe to newsletters by providing your email.
 Responsive Design: The application is responsive and works well on various device sizes.
@@ -56,3 +56,7 @@ Responsive Design: The application is responsive and works well on various devic
 - [Express.js](https://expressjs.com/) 
 - [MongoDB](https://www.mongodb.com/)
 - [OpenAI GPT-3](https://openai.com/research/gpt-3/)
+
+## Live site
+
+https://radiant-biscotti-7f6ee0.netlify.app/
