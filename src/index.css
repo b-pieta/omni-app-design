@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    rgb(88, 196, 244) 20%,
+    rgb(130, 116, 239) 40%,
+    rgb(216, 255, 255) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+
+.blueViolet__gradient1 {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #6a28d7 100%);
+  filter: blur(150px);
+}
+
+.blueViolet__gradient2 {
+  background: linear-gradient(90deg, #4c6ef5 0%, #8557ff 100%);
+  filter: blur(900px);
+}
+
+.blueViolet__gradient3 {
+  background: rgba(124, 58, 237, 0.6);
+  filter: blur(750px);
+}
+
+.border-gradient {
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(135deg, rgb(88, 196, 244), rgb(130, 116, 239), rgb(216, 255, 255)) 1;
+  border-radius: 10px;
+}
